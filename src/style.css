@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.toDo-Container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 50px 30vw;
+}
+
+.toDo {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgb(212, 211, 210);
+  list-style: none;
+  height: 100%;
+}
+
+.toDo li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 16%;
+  width: 100%;
+  border-bottom: 1px solid rgb(202, 192, 192);
+}
+
+.toDo li input[type="text"] {
+  height: 100%;
+  border: #fff;
+  font-size: 18px;
+}
+
+.toDo li input[type="text"]:focus {
+  border: #fff;
+  outline: none;
+}
+
+.toDo li input[type="checkbox"] {
+  margin: 0 5px;
+  outline: none;
+  content: none;
+  box-shadow: 0 0 0 1px rgb(228, 227, 227);
+}
+
+.toDo li i {
+  color: rgb(128, 135, 135);
+}
+
+.btn-li {
+  background-color: #f6f6f6;
+}
+
+.toDo li button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #f6f6f6;
+  color: #9b9696;
+  font-weight: 600;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.add li {
+  height: 16%;
+}
