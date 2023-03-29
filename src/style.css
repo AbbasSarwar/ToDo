@@ -79,3 +79,29 @@
 .add li {
   height: 16%;
 }
+
+.active {
+  background-color: #fffeca;
+}
+
+.fa-trash-can {
+  display: none;
+}
+
+.active .fa-trash-can {
+  display: inline;
+}
+
+.active .fa-ellipsis-vertical {
+  display: none;
+}
+
+.paragraph {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 5% 0;
+  align-items: center;
+}
