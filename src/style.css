@@ -84,6 +84,11 @@
   background-color: #fffeca;
 }
 
+.line {
+  text-decoration: line-through;
+  color: #9b9696;
+}
+
 .fa-trash-can {
   display: none;
 }
