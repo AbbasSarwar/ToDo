@@ -114,8 +114,6 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Soon ]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
