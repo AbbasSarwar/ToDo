@@ -69,7 +69,7 @@
   font-weight: 600;
 }
 
-.add {
+#addtodo {
   display: flex;
   flex-direction: column;
   width: 100%;
