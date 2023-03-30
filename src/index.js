@@ -8,12 +8,10 @@ const Display = () => {
     Container.innerHTML += `<li class="li-list" ><input class="li-list" type="checkbox" data-com="${list.completed}"> <p contenteditable="true" class="paragraph" data-para="${index}">${list.description}</p><i class="fa-regular fa-trash-can" data-index="${index}"></i> <i class="li-list fa-solid fa-ellipsis-vertical"></i></li>`;// eslint-disable-line no-return-assign
   });
 };
-
 input.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     Add();
-    // eslint-disable-next-line no-restricted-globals
-    location.reload();
+    window.location.reload();
   }
 });
 const listItemsContainer = document.querySelector('#addtodo');
@@ -33,13 +31,12 @@ listItemsContainer.addEventListener('click', (e) => {
   if (e.target.classList.contains('fa-trash-can')) {
     const index = e.target.getAttribute('data-index');
     Remove(index);
-    // eslint-disable-next-line no-restricted-globals
-    location.reload();
+    window.location.reload();
   }
 });
 const update = () => {
   for (let i = 0; i < Tasks.length; i += 1) {
-    Tasks[i].index = i;
+    Tasks[i].index = i + 1;
   }
   localStorage.setItem('list', JSON.stringify(Tasks));
   Display();
@@ -53,8 +50,7 @@ listItemsContainer.addEventListener('keypress', (e) => {
       }
       const num = e.target.getAttribute('data-para');
       Tasks[num].description = e.target.textContent;
-      // eslint-disable-next-line no-restricted-globals
-      location.reload();
+      window.location.reload();
     }
   }
   return localStorage.setItem('list', JSON.stringify(Tasks));

@@ -4,7 +4,7 @@ const Add = () => {
   const create = {
     description: input.value,
     completed: false,
-    index: Tasks.length,
+    index: Tasks.length + 1,
   };
   if (create.description !== '') {
     Tasks.push(create);
