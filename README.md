@@ -28,9 +28,9 @@
 
 # 📖 [Todo List] <a name="about-project"></a>
 
-> Hello , This is a simple Todo list program template.
+> Hello , This is a To-Do list Program where You can add remove and edit lists.
 
-**[Todo]** is a simple shelf where you can add books with author names and also you can delete it.
+**[Todo]** is a simple shelf where you can add anything also you can delete it or edit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,6 +60,7 @@
 - **[Dynamic styles]**
 - **[Editable texts]**
 - **[Add Delete features]**
+- **[Completed updated]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,8 +114,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Dynamic ]**
-- [ ] **[Advance Features]**
+- [ ] **[Soon ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
