@@ -8,6 +8,21 @@
 
 # 📗 Table of Contents
 
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Todo List\] ](#-todo-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+  - [Recommendation](#recommendation)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -32,6 +47,9 @@
 
 # 📖 [Todo List] <a name="about-project"></a>
 
+> Hello , This is a To-Do list Program where You can add remove and edit lists.
+
+**[Todo]** is a simple shelf where you can add anything also you can delete it or edit.
 > Hello , This is a simple Todo list program template.
 
 **[Todo]** is a simple shelf where you can add books with author names and also you can delete it.
@@ -59,6 +77,12 @@
 
 - **[Simple Template]**
 - **[Books listed from array]**
+- **[buttons ]**
+- **[colors ]**
+- **[Dynamic styles]**
+- **[Editable texts]**
+- **[Add Delete features]**
+- **[Completed updated]**
 - **[buttons]**
 - **[colors]**
 
@@ -92,6 +116,7 @@ In order to run this project you need:
 
 * git clone https://github.com/AbbasSarwar/ToDo.git
 * cd todo
+* git checkout Add-remove
 * Go live through in VS code for further.
 * Here we Go....
 
@@ -112,7 +137,6 @@ In order to run this project you need:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
 
 - [ ] **[Add / Remove]**
 - [ ] **[dynamic data ]**
