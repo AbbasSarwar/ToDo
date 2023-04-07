@@ -48,10 +48,6 @@
 # 📖 [Todo List] <a name="about-project"></a>
 
 > Hello , This is a To-Do list Program where You can add remove and edit lists.
-
-**[Todo]** is a simple shelf where you can add anything also you can delete it or edit.
-> Hello , This is a simple Todo list program template.
-
 **[Todo]** is a simple shelf where you can add books with author names and also you can delete it.
 
 ## 🛠 Built With <a name="built-with"></a>
